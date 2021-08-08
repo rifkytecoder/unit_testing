@@ -14,21 +14,21 @@ func Test_grade(t *testing.T) {
 		{
 			name: "test return C",
 			args: args{
-				nilai: 30,
+				nilai: 35,
 			},
 			want: "C",
 		},
 		{
 			name: "test return B",
 			args: args{
-				nilai: 69,
+				nilai: 65,
 			},
 			want: "B",
 		},
 		{
 			name: "test return A",
 			args: args{
-				nilai: 75,
+				nilai: 80,
 			},
 			want: "A",
 		},
