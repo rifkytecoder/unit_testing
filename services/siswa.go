@@ -1,5 +1,6 @@
 package services
 
+//menggunakan kondisi IF then Else
 func grade(nilai int) string {
 
 	if nilai <= 40 {
